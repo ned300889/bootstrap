@@ -2,10 +2,10 @@
 dependency:
   name: galaxy
 driver:
-  name: docker
+  name: podman 
 platforms:
   - name: instance
-    image: ${MOLECULE_DISTRO:-centos:7}
+    image: ${MOLECULE_DISTRO:-centos:latest}
     pre_build_image: true
 provisioner:
   name: ansible
