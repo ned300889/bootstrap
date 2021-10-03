@@ -1,12 +1,13 @@
 galaxy_info:
+  role_name: bootstrap
+  namespace: ned300889
   author: Nathan Simpson
   description: Bootstrap server for ansible support
   company: Siveyans
-  role_name: ned300889.bootstrap
 
   license: GPL-2.0-or-later
 
-  min_ansible_version: 2.9
+  min_ansible_version: 2.11.5
 
   platforms:
   - name: EL
