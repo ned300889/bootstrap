@@ -1,0 +1,9 @@
+---
+- name: Bootstrap server for python support
+  raw:  bash -c "test -e /usr/bin/python3 || (yum -y update && yum install -y python3)"
+  changed_when: False
+
+- name: Update system
+  yum:
+    state: latest
+    name: "*"

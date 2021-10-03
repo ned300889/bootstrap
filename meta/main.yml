@@ -2,6 +2,7 @@ galaxy_info:
   author: Nathan Simpson
   description: Bootstrap server for ansible support
   company: Siveyans
+  role_name: ned300889.bootstrap
 
 
   license: GPL-2.0-or-later
@@ -13,6 +14,10 @@ galaxy_info:
     versions: 
     - 7
     - 8
+  - name: Ubuntu
+    versions:
+    - 18.04
+    - 20.04
 
   galaxy_tags: []
 
