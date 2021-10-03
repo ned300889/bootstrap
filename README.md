@@ -21,5 +21,7 @@ Author Information
 ------------------
 
 Twitter: https://twitter.com/NathanS68164208
+
 Medium: https://medium.com/@ned300889
+
 Linkedin: https://www.linkedin.com/in/nathan-simpson-2826b6222/
